@@ -1,8 +1,9 @@
 
 import './App.css'
-import Ejercicio3 from './Components/Ejercicio3'
+import Frase from './Components/Frase';
 import {Container}   from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   
@@ -10,7 +11,7 @@ function App() {
   return (
     
     <>
-    <Container className="my-5 main"><Ejercicio3></Ejercicio3></Container>
+    <Container className="my-5 main"><Frase></Frase></Container>
       
 
     
